@@ -7,6 +7,14 @@
     "build": "webpack --mode production",
     "dev": "webpack-dev-server --open --mode development"
   },
+  "browserslist": [
+    "defaults",
+    "not ie < 11",
+    "last 2 versions",
+    "> 1%",
+    "iOS 7",
+    "last 3 iOS versions"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WS-Jedp/WomenInTech.git"
