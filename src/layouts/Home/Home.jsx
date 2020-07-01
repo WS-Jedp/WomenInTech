@@ -1,17 +1,22 @@
 import React from 'react';
 
-class Home extends React.Component{
-  constructor(){
-    super();
-  }
+// Styles
+import './HomeStyles.css';
 
-  render(){
-    return(
-      <>
-        <h1>Hello World From Home!</h1>
-      </>
-    );
-  }
+// Components
+import Sidebar from '../../components/Sidebar/Sidebar';
+
+const Home = ({children}) => {
+
+  return(
+    <>
+      <Sidebar />
+      <section>
+        {children}
+      </section>
+    </>
+  );
+
 }
 
 export default Home;
