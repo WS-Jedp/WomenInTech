@@ -1,0 +1,15 @@
+:root {
+  font-size: 62.5%;
+  /* --color-secondary: #DB4848; */
+  --color-main: #F2CD95;
+  --color-secondary: #804800;
+  --color-dark: #121415;
+  --color-light: #FFFFFF;
+
+  --shadow-dark: 0 0 12px rgba(0,0,0,0.3);
+
+  --space-big: 3.2rem;
+  --space-medium: 2.6rem;
+  --space-normal: 1.8rem;
+  --space-small: .6rem;
+}

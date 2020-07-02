@@ -11,9 +11,9 @@ const Home = ({children}) => {
   return(
     <>
       <Sidebar />
-      <section>
+      <div className="bg-color-dark padding-medium home__content">
         {children}
-      </section>
+      </div>
     </>
   );
 
