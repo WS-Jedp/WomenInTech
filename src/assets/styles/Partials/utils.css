@@ -1,0 +1,54 @@
+/* ------------- Margins ------------- */
+.bg-color-main {
+  background-color: var(--color-main);
+}
+.bg-color-secondary {
+  background-color: var(--color-secondary);
+}
+.bg-color-dark {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+.bg-color-light {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+}
+
+
+/* ------------- Margins ------------- */
+.margin-big {
+  margin: var(--space-big);
+}
+.margin-medium {
+  margin: var(--space-medium);
+}
+.margin-normal {
+  margin: var(--space-normal)
+}
+.margin-small {
+  margin: var(--space-small);
+}
+
+
+/* ------------- Paddings ------------- */
+.padding-big {
+  padding: var(--space-big);
+}
+.padding-medium {
+  padding: var(--space-medium);
+}
+.padding-normal {
+  padding: var(--space-normal)
+}
+.padding-small {
+  padding: var(--space-small);
+}
+
+
+/* ------------- Special Tags ------------- */
+hr {
+  position: relative;
+  width: 100%;
+  height: .2rem;
+  border: none;
+}

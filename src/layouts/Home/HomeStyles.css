@@ -1,0 +1,24 @@
+
+.home__content{
+  position: relative;
+  min-width: 340px;
+  width: 70%;
+  height: 100%;
+  overflow-x: scroll;
+}
+
+@media only screen and (max-width: 800px){
+  .home__sidebar{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    min-width: 60px;
+    width: 10%;
+    padding: 6px;
+  }
+
+  .home__content{
+    width: 90%;
+  }
+} 
