@@ -15,6 +15,46 @@
 }
 
 
+
+/* ------------- Images ------------- */
+.figure-image {
+  position: relative;
+  min-width: 210px;
+  width: 210px;
+  min-height: 200px;
+  height: 200px;
+  border: var(--color-main) 1px dotted;
+}
+
+.figure-image img {
+  position: absolute;
+  width: 90%;
+  left: -3rem;
+}
+
+/* ------------- Buttons ------------- */
+.button-primary {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  min-width: 210px;
+  width: 60%;
+  max-width: 300px;
+  padding: 1.2rem 0; 
+  font-weight: 100;
+  border: var(--color-main) 1px solid;
+  background-color: transparent;
+  color: var(--color-light);
+  transition: .3s ease-in-out;
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  background-color: var(--color-main);
+  color: var(--color-dark);
+}
+
 /* ------------- Margins ------------- */
 .margin-big {
   margin: var(--space-big);

@@ -11,7 +11,7 @@ const Home = ({children}) => {
   return(
     <>
       <Sidebar />
-      <div className="bg-color-dark padding-medium home__content">
+      <div className="bg-color-dark home__content">
         {children}
       </div>
     </>
