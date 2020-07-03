@@ -1,13 +1,54 @@
 .detail{
   position: relative;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   height: 100%;
-  overflow-x: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
 }
 
 .detail hr {
   margin: var(--space-normal) 0;
+}
+
+.detail__header{
+  /* display: flex;
+  align-items: center; */
+  height: 60px;
+  width: 100%;
+}
+.detail__header hr{
+  margin: 6px;
+  height: .1rem;
+}
+
+.detail__header-title{
+  display: flex;
+}
+.detail__header h2{
+  font-size: 2.6rem;
+
+}
+
+.detail__header-title img{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.detail__thumbnails{
+  width: 450px;
+  height: 180px;
+  justify-content: space-around;
+  align-items: flex-end;
+  display: flex;
+  overflow-x: auto;
+  margin-top:10px;
+  overflow: visible;
 }
 
 @media screen and (max-width: 768px){
