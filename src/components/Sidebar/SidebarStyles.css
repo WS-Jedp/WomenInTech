@@ -20,6 +20,14 @@
   display: none;
 }
 
+.sidebar__content{
+  margin-bottom: var(--space-big);
+}
+
+.sidebar__content-logo{
+  display: inline;
+}
+
 @media only screen and (max-width: 800px){
 
   .sidebar{
