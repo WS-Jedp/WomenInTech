@@ -1,0 +1,8 @@
+.footer ul li{
+  display: inline-flex;
+  margin-right: var(--space-small);
+}
+
+.footer small {
+  font-size: 1.6rem;
+}

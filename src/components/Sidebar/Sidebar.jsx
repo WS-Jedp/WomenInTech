@@ -4,35 +4,41 @@ import { NavLink, Link} from 'react-router-dom';
 // Styles
 import './SidebarStyles.css'
 
+// Components
+import Footer from '../Footer/Footer';
+
 const Sidebar = () => {
 
   const [stateMenu, setStateMenu] = useState(false);
 
-  window.matchMedia('(max-width: 800px)').addListener(() => {
+  window.matchMedia('(max-width: 800px)').addListener((ev) => {
     const sidebar = document.getElementsByClassName('sidebar')[0];
-    if(window.matchMedia('(max-width: 800px)')) sidebar.style.width = '30%';
+    if(!ev.matches) sidebar.style.width = '30%';
     else sidebar.style.width = '10%';
   })
 
   const handleMenu = () => {
+
     const sidebar = document.getElementsByClassName('sidebar')[0];
     const content = document.getElementById('menu--content');
-    const msg = `Women In Tech it's a project that born for honoring the women that are worked so hard in the are of the technology but still doesn't have the reputation that deserve.
-    <br/> <br/>
-    Enjoy this travel trough the history of the evolution of tech thanks to women.`;
+    const msg = `
+      <h2>Women In Tech</h2>  
+      Women In Tech it's a project that born for honoring the women that are worked so hard in the are of the technology but still doesn't have the reputation that deserve.
+      <br/> <br/>
+      Enjoy this travel trough the history of the evolution of tech thanks to women.`;
     const title = `Women In Tech`
 
-        if (stateMenu){
-          sidebar.style.width = '10%'; 
-          content.innerHTML = title;
-          content.style.transform = 'rotate(-90deg)';
-          setStateMenu(false);
-        } else {
-          sidebar.style.width = '100%';
-          content.style.transform = 'rotate(0deg)';
-          content.innerHTML = msg;
-          setStateMenu(true);
-        }
+    if (stateMenu){
+      sidebar.style.width = '10%'; 
+      content.innerHTML = title;
+      content.style.transform = 'rotate(-90deg)';
+      setStateMenu(false);
+    } else {
+      sidebar.style.width = '100%';
+      content.style.transform = 'rotate(0deg)';
+      content.innerHTML = msg;
+      setStateMenu(true);
+    }
 
   }
 
@@ -54,24 +60,14 @@ const Sidebar = () => {
           Enjoy this travel trough the history of the evolution of tech thanks to women.
         </p>
         <hr className="bg-color-secondary" />
-        <span>
-          <h1 className="text-color-secondary">Q</h1>
-        </span>
+        <Link to="/dates">
+          <h1 className="text-color-secondary sidebar__content-logo">Q</h1>
+        </Link>
       </article>
 
       {/* Footer of the Sidebar */}
       <footer className="sidebar__footer">
-      <ul>
-        <li>
-          <Link to="/welcome">Go to Welcome Page</Link>
-        </li>
-        <li>
-          <Link to="/dates">Go to Dates Pages</Link>
-        </li>
-        <li>
-          <Link to="/detail">Go to Detail Pages</Link>
-        </li>
-      </ul>
+        <Footer />
       </footer>
 
       {/* Responsive Sidebar */}
@@ -82,7 +78,7 @@ const Sidebar = () => {
 
           <div className="sidebar__menu--content">
             <hr/>
-              <p className="h2" id="menu--content">
+              <p className="h3" id="menu--content">
                 Women In Tech
               </p>
             <hr/>
