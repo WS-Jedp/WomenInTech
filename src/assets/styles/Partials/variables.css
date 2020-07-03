@@ -5,8 +5,10 @@
   --color-secondary: #804800;
   --color-dark: #121415;
   --color-light: #FFFFFF;
+  --color-gray: #707070;
 
   --shadow-dark: 0 0 12px rgba(0,0,0,0.3);
+  --shadow-light: 0 0 18px rgba(242,205,149, 0.6);
 
   --space-big: 3.2rem;
   --space-medium: 2.6rem;
