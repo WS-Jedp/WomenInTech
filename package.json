@@ -35,6 +35,7 @@
   "homepage": "https://github.com/WS-Jedp/WomenInTech#readme",
   "devDependencies": {
     "@babel/core": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
     "autoprefixer": "^9.8.4",
