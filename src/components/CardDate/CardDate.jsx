@@ -8,7 +8,7 @@ import './CardDateStyles.css';
 import women from '../../assets/Images/womenBW.png';
 import womenSquare from '../../assets/Images/womenBWSquare.png';
 
-const CardDate = ({ year, title, name, description, img }) => {
+const CardDate = ({ year, title, subTitle, description, img }) => {
 
   return (
     <article className="padding-medium card-date">
@@ -16,7 +16,7 @@ const CardDate = ({ year, title, name, description, img }) => {
         <h1>{year || '1700'}</h1>
         <hr className='bg-color-light' />
         <h2>{title || 'Human Computer'}</h2>
-        <h3>{name || 'Start Of Computation'}</h3>
+        <h3>{subTitle || 'Start Of Computation'}</h3>
         <p>
           {
             description || 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aut aliquid ex corrupti eligendi dolor.'
