@@ -26,7 +26,6 @@ const CardDate = ({ year, title, subTitle, description, img }) => {
 
       <figure className="margin-medium figure-image">
         <div className="figure-image__border-dates">
-
         </div>
         <img src={women} alt="" />
       </figure>
