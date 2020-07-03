@@ -69,7 +69,7 @@ const Sidebar = () => {
           <Link to="/dates">Go to Dates Pages</Link>
         </li>
         <li>
-          <Link to="/detail/name">Go to Detail Pages</Link>
+          <Link to="/detail">Go to Detail Pages</Link>
         </li>
       </ul>
       </footer>
