@@ -6,3 +6,10 @@
 .footer small {
   font-size: 1.6rem;
 }
+.icon{
+  font-size: 25px;
+  fill: var(--color-secondary);
+  color: var(--color-secondary);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
