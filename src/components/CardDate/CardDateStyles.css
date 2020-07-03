@@ -1,9 +1,9 @@
 .card-date {
   position: relative;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   min-width: 390px;
   width: 30%;
   max-width: 600px;
@@ -13,55 +13,93 @@
   border-bottom: none;
   text-align: center;
   transition: .3s ease-in-out;
-  cursor: pointer;
+  filter: grayscale();
+  transition: all .3s
 }
 
 .card-date h1, .card-date h2, .card-date h3, .card-date hr, .card-date figure {
   will-change: color, transform, background-color;
   transition: 0.3s ease-in-out;
 }
-.card-date figure img{
-  filter: grayscale();
-}
-
 
 .card-date:hover {
   min-width: 450px;
-  border: var(--color-main);
   box-shadow: var(--shadow-light);
   z-index: 999;
+  filter: initial;
+  transition: all .3s;
+  border: 1px solid var(--color-main);
 }
-.card-date:hover figure img {
-  filter: none;
+
+.card-date .figure-image {
+  border: initial;
 }
-.card-date:hover > h1 {
+
+.figure-image__border-dates {
+  position: absolute;
+  min-width: 210px;
+  width: 210px;
+  min-height: 200px;
+  height: 200px;
+  border: var(--color-main) 1px dashed;
+  transition: all .3s;
+}
+
+.card-date:hover .figure-image__border-dates {
+  transform: rotate(45deg);
+}
+
+.card-date:hover .figure-image img {
+  left: 1rem !important;
+}
+
+.card-date__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-date__info p {
+  max-width: 336px;
+}
+
+.card-date figure img {
+  filter: grayscale();
+  transition: 0.3s ease-in-out;
+}
+
+.card-date:hover h1 {
   color: var(--color-main);
 }
-.card-date:hover > h2 {
+
+.card-date:hover h2 {
   color: var(--color-main);
 }
-.card-date:hover > h3 {
+
+.card-date:hover h3 {
   color: var(--color-main);
 }
-.card-date:hover > hr {
+
+.card-date:hover hr {
   background-color: var(--color-main);
 }
 
-.card-date:hover figure{
+.card-date:hover figure img {
   transform: scale(1.2);
 }
 
-.card-date hr{
+.card-date hr {
   width: 60%;
   height: 1px;
   margin: 2rem 0;
 }
+
 .card-date h3 {
   margin: 1rem 0 2rem 0;
 }
 
-@media screen and (max-width: 300px){
-  .card-date{
+@media screen and (max-width: 300px) {
+  .card-date {
     min-width: 300px;
   }
 }
