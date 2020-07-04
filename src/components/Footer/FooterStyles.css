@@ -1,4 +1,20 @@
-.footer ul li{
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer.sidebar__footer {
+  position: sticky;
+  bottom: 10px;
+}
+
+.footer ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer ul li {
   display: inline-flex;
   margin-right: var(--space-small);
 }
@@ -6,10 +22,17 @@
 .footer small {
   font-size: 1.6rem;
 }
-.icon{
+
+.icon {
   font-size: 25px;
   fill: var(--color-secondary);
   color: var(--color-secondary);
   cursor: pointer;
   transition: 0.3s ease-in-out;
+}
+
+.footer__copy {
+  margin: 10px 0;
+  width: 100%;
+  text-align: center;
 }

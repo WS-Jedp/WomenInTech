@@ -49,15 +49,17 @@ const Sidebar = () => {
 
         {/* Title of the sidebar */}
         <div className="sidebar__title">
-          <h2 className="text-color-secondary">Women In Tech</h2>
-          <h3 className="text-color-secondary">Honoring the history</h3>
+          <center>
+            <h2 className="text-color-secondary">Women In Tech</h2>
+            <h3 className="text-color-secondary">Honoring the history</h3>
+          </center>
         </div>
 
         {/* Content of the sidebar */}
         <article className="sidebar__content">
           <hr className="bg-color-secondary" />
           <p>
-            Women In Tech it's a project that born for honoring the women that are worked so hard in the are of the technology but still doesn't have the reputation that deserve.
+            Women In Tech it's a project that born for honoring the women that are worked so hard in the area of the technology but still don't have the reputation that deserve.
           <br /> <br />
           Enjoy this travel trough the history of the evolution of tech thanks to women.
         </p>
@@ -75,13 +77,13 @@ const Sidebar = () => {
         {/* Responsive Sidebar */}
         <div className="sidebar__menu">
           <span onClick={() => handleMenu()}>
-            menu
+            {/* menu */}
         </span>
 
           <div className="sidebar__menu--content">
             <hr />
             <p className="h3" id="menu--content">
-              Women In Tech
+              <h2>Women In Tech</h2>
               </p>
             <hr />
           </div>
