@@ -11,12 +11,14 @@
     padding: 0;
     transition: all .3s;
     cursor: pointer;
+    filter: grayscale();
 }
 
 .card-small:hover {
     border-color: var(--color-main);
     box-shadow: var(--shadow-light);
     transform: scale(1.1);
+    filter: initial;
 }
 
 .card-small h2 {
@@ -63,4 +65,9 @@
 
 .card-small:hover .card-small__figure img {
     transform: scale(1.1);
+    filter: initial;
+}
+.card-small .card-small__figure img {
+    filter: grayscale();
+    transition: all .3s;
 }
