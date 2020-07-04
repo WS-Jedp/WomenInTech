@@ -6,7 +6,7 @@
       "title": "Human Computers",
       "subTitle": "Start Of Computing",
       "description": "At the begginning of the computation was the women was the persons that were more solicited for been human computers and make calculus.",
-      "image": "../../src/assets/Images/nicole-reine.png",
+      "image": "../../src/assets/Images/1700.png",
       "women": [
         {
           "id": "1",
@@ -44,7 +44,7 @@
           "birthday": "4 july 1868",
           "death": "12 december 1921",
           "description": "She was an American astronomer who changed the way of observing the universe thanks to her discovery about the luminosity of stars.\nShe graduated at age 24 from what is now Radcliffe College. She volunteered the following year at the Harvard College Observatory and in the group of 'calculators', a group of women dedicated to the production of astronomical data at Harvard; her work was fundamental in the discovery of the Cepheid variable stars, of which her superiors were Edward Pickering and Edwin Hubble, who detected all the merit.",
-          "image": "../../src/assets/Images/henrietta.png" 
+          "image": "../../src/assets/Images/henrietta.jpg" 
         }
       ]
     }
@@ -64,7 +64,7 @@
           "birthday": "9 December 1906",
           "death": "10 December 1815",
           "description": "She was the first person to create a compiler for a programming language and one of the first programmers of the Harvard Mark I computer, an electro-mechanical computer based on Analytical Engine.\n Hopper's work with computers started in 1943, when she started working at the Bureau of Ordnance's Computation Project at Harvard where she programmed the Harvard Mark I. Hopper not only programmed the computer, but created a 500-page comprehensive manual for it. Even though Hopper created the manual, which was widely cited and published, she was not specifically credited in it.\nHopper is often credited with the coining of the term 'bug' and 'debugging' when a moth caused the Mark II to malfunction. While a moth was found and the process of removing it called 'debugging,' the terms were already part of the language of programmers.\nGrace Hopper continued to contribute to computer science through the 1950s. She brought the idea of using compilers from her time at Harvard to UNIVAC which she joined in 1949.",
-          "image": "../../src/assets/Images/grace-brewster.png" 
+          "image": "../../src/assets/Images/grace-brewster.jpg" 
         },
         {
           "id": "2",
@@ -73,7 +73,7 @@
           "birthday": "17 August 1936",
           "death": "",
           "description": "She began to study software reliability while she was working at the US SAGE air defense system. In 1965, she was responsible for programming the software for the onboard flight software on the Apollo mission computers.\nAfter Hamilton had completed the program, the code was sent to Raytheon where 'expert seamstresses' called the 'Little Old Ladies' actually hardwired the code by threading copper wire through magnetic rings. Each system could store more than 12,000 words that were represented by the copper wires.\nShe later founded two software companies Higher Order Software in 1976 and Hamilton Technologies in 1986, both in Cambridge, Massachusetts.",
-          "image": "../../src/assets/Images/margaret-hamilton.png" 
+          "image": "../../src/assets/Images/margaret-hamilton.jpg" 
         },
         {
           "id": "3",
@@ -82,7 +82,7 @@
           "birthday": "18 August 1911",
           "death": "10 November 1963",
           "description": "was a Hungarian-American computer scientist, noted as one of the first computer programmers.\nAfter their wedding, Dán emigrated to the United States with von Neumann, where he held a professorship at Princeton University. In 1943, von Neumann moved to Los Alamos National Laboratory in New Mexico to work on calculations as part of the Manhattan Project. Dán remained at Princeton until 1946, working at the university's Office of Population Research.\nAfter the war, Dán joined von Neumann in New Mexico to program the MANIAC I machine, which could store data, designed by her husband and Julian Bigelow.\nShe then worked on the ENIAC on a project with von Neumann to produce the first successful meteorological forecast on a computer. Dán designed new controls for ENIAC and was one of its primary programmers.\nShe trained a group of people drawn from the Manhattan Project to store programs as binary code.[5]",
-          "image": "../../src/assets/Images/klara-von-neuman.png"
+          "image": "../../src/assets/Images/klara-von-neuman.jpg"
         }
       ]
     }
@@ -102,7 +102,7 @@
           "birthday": "7 November 1939",
           "death": "",
           "description": "is an American computer scientist who is an Institute Professor at the Massachusetts Institute of Technology and Ford Professor of Engineering in its School of Engineering's electrical engineering and computer science department.\nShe was one of the first women to be granted a doctorate in computer science in the United States and is a Turing Award winner who developed the Liskov substitution principle.\nLiskov received the 2008 Turing Award from the ACM, in March 2009, for her work in the design of programming languages and software methodology that led to the development of object-oriented programming. Specifically, Liskov developed two programming languages, CLU in the 1970s and Argus in the 1980s. The ACM cited her contributions to the practical and theoretical foundations of 'programming language and system design, especially related to data abstraction, fault tolerance, and distributed computing'. In 2012 she was inducted into the National Inventors Hall of Fame.",
-          "image": "./src/assets/Images/barbara-liskov-lou.png" 
+          "image": "./src/assets/Images/barbara-liskov-lou.jpg" 
         },
         {
           "id": "2",
@@ -111,7 +111,7 @@
           "birthday": "5 April 1965",
           "death": "",
           "description": "Is a technical executive and inventor in the fields of display, imaging, and computer hardware.\nHer contributions have had worldwide adoption in head-mounted display, HDTV, laptop computers, and projector products; she was the technical force behind a generation of low-cost computing, and innovative consumer and medical imaging technologies.\nShe was named one of the hundred most influential people in the world by Time Magazine (Time 100), was named in 2013 to CNN's top 10 thinkers in science and technology for her work in display innovation, and she has over 200 patents published or issued.",
-          "image": "./src/assets/Images/mary-lou.png" 
+          "image": "./src/assets/Images/mary-lou.jpg" 
         },
         {
           "id": "3",
@@ -120,7 +120,7 @@
           "birthday": "9 May 1989",
           "death": "",
           "description": "She is an American engineer and computer scientist working in the field of computer imagery. She led the development of an algorithm for imaging black holes, known as Continuous High-resolution Image Reconstruction using Patch priors (CHIRP), and was a member of the Event Horizon Telescope team that captured the first image of a black hole.\nShe started making the algorithm three years ago while she was a graduate student at the Massachusetts Institute of Technology (MIT).\nThere, she led the project, assisted by a team from MIT's Computer Science and Artificial Intelligence Laboratory, the Harvard-Smithsonian Center for Astrophysics and the MIT Haystack Observatory.",
-          "image": "./src/assets/Images/katherine-louise.png" 
+          "image": "./src/assets/Images/katherine-louise.jpg" 
         }
       ]
     }
@@ -131,7 +131,7 @@
       "title": "Human Computers",
       "subTitle": "Start Of Computing",
       "description": "At the begginning of the computation was the women was the persons that were more solicited for been human computers and make calculus.",
-      "image": "../..src/assets/Images/1700.jpg",
+      "image": "../..src/assets/Images/1700.png",
       "women": [
         {
           "id": "1",
@@ -167,7 +167,7 @@
         "birthday": "4 july 1868",
         "death": "12 december 1921",
         "description": "She was an American astronomer who changed the way of observing the universe thanks to her discovery about the luminosity of stars.\nShe graduated at age 24 from what is now Radcliffe College. She volunteered the following year at the Harvard College Observatory and in the group of 'calculators', a group of women dedicated to the production of astronomical data at Harvard; her work was fundamental in the discovery of the Cepheid variable stars, of which her superiors were Edward Pickering and Edwin Hubble, who detected all the merit.",
-        "image": "../../src/assets/Images/henrietta.png" 
+        "image": "../../src/assets/Images/henrietta.jpg" 
       }
     ]
   },
@@ -185,7 +185,7 @@
         "birthday": "9 December 1906",
         "death": "10 December 1815",
         "description": "She was the first person to create a compiler for a programming language and one of the first programmers of the Harvard Mark I computer, an electro-mechanical computer based on Analytical Engine.\n Hopper's work with computers started in 1943, when she started working at the Bureau of Ordnance's Computation Project at Harvard where she programmed the Harvard Mark I. Hopper not only programmed the computer, but created a 500-page comprehensive manual for it. Even though Hopper created the manual, which was widely cited and published, she was not specifically credited in it.\nHopper is often credited with the coining of the term 'bug' and 'debugging' when a moth caused the Mark II to malfunction. While a moth was found and the process of removing it called 'debugging,' the terms were already part of the language of programmers.\nGrace Hopper continued to contribute to computer science through the 1950s. She brought the idea of using compilers from her time at Harvard to UNIVAC which she joined in 1949.",
-        "image": "../../src/assets/Images/grace-brewster.png" 
+        "image": "../../src/assets/Images/grace-brewster.jpg" 
       },
       {
         "id": "2",
@@ -194,7 +194,7 @@
         "birthday": "17 August 1936",
         "death": "",
         "description": "She began to study software reliability while she was working at the US SAGE air defense system. In 1965, she was responsible for programming the software for the onboard flight software on the Apollo mission computers.\nAfter Hamilton had completed the program, the code was sent to Raytheon where 'expert seamstresses' called the 'Little Old Ladies' actually hardwired the code by threading copper wire through magnetic rings. Each system could store more than 12,000 words that were represented by the copper wires.\nShe later founded two software companies Higher Order Software in 1976 and Hamilton Technologies in 1986, both in Cambridge, Massachusetts.",
-        "image": "../../src/assets/Images/margaret-hamilton.png" 
+        "image": "../../src/assets/Images/margaret-hamilton.jpg" 
       },
       {
         "id": "3",
@@ -203,7 +203,7 @@
         "birthday": "18 August 1911",
         "death": "10 November 1963",
         "description": "was a Hungarian-American computer scientist, noted as one of the first computer programmers.\nAfter their wedding, Dán emigrated to the United States with von Neumann, where he held a professorship at Princeton University. In 1943, von Neumann moved to Los Alamos National Laboratory in New Mexico to work on calculations as part of the Manhattan Project. Dán remained at Princeton until 1946, working at the university's Office of Population Research.\nAfter the war, Dán joined von Neumann in New Mexico to program the MANIAC I machine, which could store data, designed by her husband and Julian Bigelow.\nShe then worked on the ENIAC on a project with von Neumann to produce the first successful meteorological forecast on a computer. Dán designed new controls for ENIAC and was one of its primary programmers.\nShe trained a group of people drawn from the Manhattan Project to store programs as binary code.",
-        "image": "../../src/assets/Images/klara-von-neuman.png"
+        "image": "../../src/assets/Images/klara-von-neuman.jpg"
       }
     ]
   },
@@ -221,7 +221,7 @@
         "birthday": "7 November 1939",
         "death": "",
         "description": "is an American computer scientist who is an Institute Professor at the Massachusetts Institute of Technology and Ford Professor of Engineering in its School of Engineering's electrical engineering and computer science department.\nShe was one of the first women to be granted a doctorate in computer science in the United States and is a Turing Award winner who developed the Liskov substitution principle.\nLiskov received the 2008 Turing Award from the ACM, in March 2009, for her work in the design of programming languages and software methodology that led to the development of object-oriented programming. Specifically, Liskov developed two programming languages, CLU in the 1970s and Argus in the 1980s. The ACM cited her contributions to the practical and theoretical foundations of 'programming language and system design, especially related to data abstraction, fault tolerance, and distributed computing'. In 2012 she was inducted into the National Inventors Hall of Fame.",
-        "image": "../../src/assets/Images/barbara-liskov-lou.png" 
+        "image": "../../src/assets/Images/barbara-liskov-lou.jpg" 
       },
       {
         "id": "2",
@@ -230,7 +230,7 @@
         "birthday": "5 April 1965",
         "death": "",
         "description": "Is a technical executive and inventor in the fields of display, imaging, and computer hardware.\nHer contributions have had worldwide adoption in head-mounted display, HDTV, laptop computers, and projector products; she was the technical force behind a generation of low-cost computing, and innovative consumer and medical imaging technologies.\nShe was named one of the hundred most influential people in the world by Time Magazine (Time 100), was named in 2013 to CNN's top 10 thinkers in science and technology for her work in display innovation, and she has over 200 patents published or issued.",
-        "image": "../../src/assets/Images/mary-lou.png" 
+        "image": "../../src/assets/Images/mary-lou.jpg" 
       },
       {
         "id": "3",
@@ -239,7 +239,7 @@
         "birthday": "9 May 1989",
         "death": "",
         "description": "She is an American engineer and computer scientist working in the field of computer imagery. She led the development of an algorithm for imaging black holes, known as Continuous High-resolution Image Reconstruction using Patch priors (CHIRP), and was a member of the Event Horizon Telescope team that captured the first image of a black hole.\nShe started making the algorithm three years ago while she was a graduate student at the Massachusetts Institute of Technology (MIT).\nThere, she led the project, assisted by a team from MIT's Computer Science and Artificial Intelligence Laboratory, the Harvard-Smithsonian Center for Astrophysics and the MIT Haystack Observatory.",
-        "image": "../../src/assets/Images/katherine-louise.png" 
+        "image": "../../src/assets/Images/katherine-louise.jpg" 
       }
     ]
   }
