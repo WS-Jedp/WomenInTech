@@ -9,7 +9,7 @@
   border-radius: .3rem;
   box-shadow: var(--shadow-light);
   overflow: hidden;
-  padding: 20px;
+  padding: 30px;
 }
 
 .card-detail__content {
@@ -43,9 +43,9 @@
 
 @media screen and (max-width: 1200px) {
   .card-detail {
-    align-items: flex-start;
+    /* align-items: flex-start;
     flex-flow: column-reverse;
-    height: auto;
+    height: auto; */
   }
   .card-detail__text {
     width: 90%;
@@ -61,10 +61,10 @@
 
 @media screen and (max-width: 768px) {
   .card-detail {
-    align-items: center;
+    /* align-items: center;
     min-width: 240px;
     width: 100%;
-    padding: var(--space-small);
+    padding: var(--space-small); */
   }
   .card-detail__text h2 {
     font-size: 3rem;
