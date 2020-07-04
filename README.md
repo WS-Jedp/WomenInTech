@@ -4,14 +4,6 @@ A project to show the importance of the womens in evolution of the programming a
 Women In Tech it's a project that born for honoring the women that are worked so hard in the area of the technology but still don't have the reputation that deserve.
 
 
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
-
-
-
 ##Setup
 
 **Install dependences**
