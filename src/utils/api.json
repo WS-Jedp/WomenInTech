@@ -15,7 +15,7 @@
           "birthday": "5 january 1723",
           "death": "6 December 1788",
           "description": "Was a French Astronomer and Mathematician and was one of the team of human computers who worked with Alexis-Claude Clairaut and Joseph-Jérôme Le Français de Lalande to predict the date of the return of Halley's Comet.\nThey predict the return of Halley's Comet by calculating the timing solar eclipse and constructing a group of catalogs of the stars\nThe asteroid 7720 Lepaute is named in her honour, as is the lunar crater Lepaute. She was also a member of the Scientific Academy of Béziers.",
-          "image": "../../src/assets/Images/nicole-reine.jpg" 
+          "image": "../../src/assets/Images/nicole-reine.png" 
         }
       ] 
     }
@@ -26,7 +26,7 @@
       "title": "The New Computers",
       "subTitle": "The New Machines",
       "description": "Computers began to be created and imagined as machines that would help humans make calculations.",
-      "image": "../../src/assets/Images/1800.jpg",
+      "image": "../../src/assets/Images/1800.png",
       "women": [
         {
           "id": "1",
@@ -35,7 +35,7 @@
           "birthday": "10 December 1815",
           "death": "27 November 1852",
           "description": "Was an English mathematician and writer. She was the first to recognize that the machine had applications beyond pure calculation, and published the first algorithm intended to be carried out by such a machine. As a result, she is widely regarded as the first to recognize the full potential of computers and one of the first computer programmers.\nLovelace was introduced to Babbage's difference engine when she was 17. In 1840, she wrote to Babbage and asked if she could become involved with his first machine\nLovelace imagined the kind of impact of the Analytical Engine might have on society. She drew up explanations of how the engine could handle inputs, outputs, processing and data storage. She also created several proofs to show how the engine would handle calculations of Bernoulli Numbers on its own.\n The proofs are considered the first examples of a computer program. Lovelace downplayed her role in her work during her life, for example, in signing her contributions with AAL so as not be 'accused of bragging.'",
-          "image": "../../src/assets/Images/ada-lovelace.jpg" 
+          "image": "../../src/assets/Images/ada-lovelace.png" 
         },
         {
           "id": "2",
@@ -55,7 +55,7 @@
       "title": "Wars And Technology",
       "subTitle": "The Boom Of Computers",
       "description": "With the start of wars, the power countries begin a race to have the best technologies to win the war.",
-      "image": "../../src/assets/Images/1900.jpg",
+      "image": "../../src/assets/Images/1900.png",
       "women": [
         {
           "id": "1",
@@ -93,7 +93,7 @@
       "title": "Age Of Information",
       "subTitle": "Everybody Should Code, isn't?",
       "description": "The 21st century start to open the gap gender in technology, still there is strong women that make beautiful works.",
-      "image": "../../src/assets/Images/2000.jpg",
+      "image": "../../src/assets/Images/2000.png",
       "women": [
         {
           "id": "1",
@@ -140,7 +140,7 @@
           "birthday": "5 january 1723",
           "death": "6 December 1788",
           "description": "Was a French Astronomer and Mathematician and was one of the team of human computers who worked with Alexis-Claude Clairaut and Joseph-Jérôme Le Français de Lalande to predict the date of the return of Halley's Comet.\nThey predict the return of Halley's Comet by calculating the timing solar eclipse and constructing a group of catalogs of the stars\nThe asteroid 7720 Lepaute is named in her honour, as is the lunar crater Lepaute. She was also a member of the Scientific Academy of Béziers.",
-          "image": "../../src/assets/Images/nicole-reine.jpg"
+          "image": "../../src/assets/Images/nicole-reine.png"
         }
       ] 
   },
@@ -158,7 +158,7 @@
         "birthday": "10 December 1815",
         "death": "27 November 1852",
         "description": "Was an English mathematician and writer. She was the first to recognize that the machine had applications beyond pure calculation, and published the first algorithm intended to be carried out by such a machine. As a result, she is widely regarded as the first to recognize the full potential of computers and one of the first computer programmers.\nLovelace was introduced to Babbage's difference engine when she was 17. In 1840, she wrote to Babbage and asked if she could become involved with his first machine\nLovelace imagined the kind of impact of the Analytical Engine might have on society. She drew up explanations of how the engine could handle inputs, outputs, processing and data storage. She also created several proofs to show how the engine would handle calculations of Bernoulli Numbers on its own.\n The proofs are considered the first examples of a computer program. Lovelace downplayed her role in her work during her life, for example, in signing her contributions with AAL so as not be 'accused of bragging.'",
-        "image": "../../src/assets/Images/ada-lovelace.jpg" 
+        "image": "../../src/assets/Images/ada-lovelace.png" 
       },
       {
         "id": "2",

@@ -36,7 +36,7 @@
 .detail__header-title img{
   width: 30px;
   height: 30px;
-  margin-right: 10px;
+  margin: 0 15px;
   cursor: pointer;
 }
 

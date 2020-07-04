@@ -51,6 +51,7 @@
 
 .card-date:hover .figure-image img {
   left: 1rem !important;
+  filter: initial;
 }
 
 .card-date__info {
