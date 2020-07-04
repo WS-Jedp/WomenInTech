@@ -7,7 +7,6 @@
   height: 100%;
   padding-top: 15px;
   padding-bottom: 15px;
-
 }
 
 .detail hr {
@@ -15,11 +14,10 @@
 }
 
 .detail__header{
-  /* display: flex;
-  align-items: center; */
   height: 60px;
   width: 100%;
 }
+
 .detail__header hr{
   margin: 6px;
   height: .1rem;
@@ -30,7 +28,6 @@
 }
 .detail__header h2{
   font-size: 2.6rem;
-
 }
 
 .detail__header-title img{
