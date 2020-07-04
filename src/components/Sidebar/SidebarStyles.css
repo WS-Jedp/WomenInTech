@@ -1,7 +1,7 @@
 .sidebar {
   position: absolute;
   left: -372px;
-  z-index: 1;
+  z-index: 1000;
   width: 400px;
   height: 100vh;
   box-shadow: var(--shadow-dark);
@@ -49,6 +49,7 @@
 
 .sidebar__content {
   margin-bottom: var(--space-big);
+  height: 100%;
 }
 
 .sidebar__content-logo {
@@ -74,7 +75,7 @@
   }
   .sidebar__menu {
     display: flex;
-    width: 100%;
+    width: 50px;
     height: 100%;
     flex-flow: column;
     align-items: center;
@@ -89,4 +90,20 @@
     transform: rotate(-90deg);
     text-align: center;
   }
+  .sidebar:hover {
+    position: static;
+    left: 0;
+    min-width: 60px;
+    width: 10%;
+    padding: var(--padding-small);
+  }
+  .sidebar__arrow{
+    display: none;
+  }
+
+  .sidebar__menu--content h2{
+    font-size: 24px;
+    color: var(--color-secondary);
+  }
+
 }
