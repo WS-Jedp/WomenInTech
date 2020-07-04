@@ -1,8 +1,9 @@
-import React, {useState, useEffect} from 'react';
-import { NavLink, Link} from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { NavLink, Link } from 'react-router-dom';
 
 // Styles
-import './SidebarStyles.css'
+import './SidebarStyles.css';
+
 
 // Components
 import Footer from '../Footer/Footer';
@@ -13,7 +14,7 @@ const Sidebar = () => {
 
   window.matchMedia('(max-width: 800px)').addListener((ev) => {
     const sidebar = document.getElementsByClassName('sidebar')[0];
-    if(!ev.matches) sidebar.style.width = '30%';
+    if (!ev.matches) sidebar.style.width = '30%';
     else sidebar.style.width = '10%';
   })
 
@@ -28,8 +29,8 @@ const Sidebar = () => {
       Enjoy this travel trough the history of the evolution of tech thanks to women.`;
     const title = `Women In Tech`
 
-    if (stateMenu){
-      sidebar.style.width = '10%'; 
+    if (stateMenu) {
+      sidebar.style.width = '10%';
       content.innerHTML = title;
       content.style.transform = 'rotate(-90deg)';
       setStateMenu(false);
@@ -44,48 +45,53 @@ const Sidebar = () => {
 
   return (
     <aside className="padding-big bg-color-main sidebar">
+      <div>
 
-      {/* Title of the sidebar */}
-      <div className="sidebar__title">
-        <h2 className="text-color-secondary">Women In Tech</h2>
-        <h3 className="text-color-secondary">Honoring the history</h3>
-      </div>
+        {/* Title of the sidebar */}
+        <div className="sidebar__title">
+          <h2 className="text-color-secondary">Women In Tech</h2>
+          <h3 className="text-color-secondary">Honoring the history</h3>
+        </div>
 
-      {/* Content of the sidebar */}
-      <article className="sidebar__content">
-        <hr className="bg-color-secondary" />
-        <p>
-          Women In Tech it's a project that born for honoring the women that are worked so hard in the are of the technology but still doesn't have the reputation that deserve.
-          <br/> <br/>
+        {/* Content of the sidebar */}
+        <article className="sidebar__content">
+          <hr className="bg-color-secondary" />
+          <p>
+            Women In Tech it's a project that born for honoring the women that are worked so hard in the are of the technology but still doesn't have the reputation that deserve.
+          <br /> <br />
           Enjoy this travel trough the history of the evolution of tech thanks to women.
         </p>
-        <hr className="bg-color-secondary" />
-        <Link to="/dates">
-          <h1 className="text-color-secondary sidebar__content-logo">Q</h1>
-        </Link>
-      </article>
+          <hr className="bg-color-secondary" />
+          <Link to="/dates">
+            <h1 className="text-color-secondary sidebar__content-logo">Q</h1>
+          </Link>
+        </article>
 
-      {/* Footer of the Sidebar */}
-      <footer className="sidebar__footer">
-        <Footer />
-      </footer>
+        {/* Footer of the Sidebar */}
+        <footer className="sidebar__footer">
+          <Footer />
+        </footer>
 
-      {/* Responsive Sidebar */}
-      <div className="sidebar__menu">
-        <span onClick={() => handleMenu()}>
-          menu
+        {/* Responsive Sidebar */}
+        <div className="sidebar__menu">
+          <span onClick={() => handleMenu()}>
+            menu
         </span>
 
           <div className="sidebar__menu--content">
-            <hr/>
-              <p className="h3" id="menu--content">
-                Women In Tech
+            <hr />
+            <p className="h3" id="menu--content">
+              Women In Tech
               </p>
-            <hr/>
+            <hr />
           </div>
 
-        <h1 className="text-color-secondary">Q</h1>
+          <h1 className="text-color-secondary">Q</h1>
+        </div>
       </div>
+
+      <img src="../../src/assets/Images/right_arrow.svg" alt="" className="sidebar__arrow" />
+
     </aside>
   );
 }

@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import CardSmall from '../../components/CardSmall/CardSmall';
 import { Link } from 'react-router-dom';
+import {  getDate } from '../../services/GetData'
 
 // Styles
 import './DetailStyles.css';
@@ -10,7 +11,18 @@ import './DetailStyles.css';
 import CardDetail from '../../components/CardDetail/CardDetail';
 
 function Detail() {
-  // let { name } = useParams();
+  const [ loading, useLoading ] = useState(true);
+  const [ data, useData ] = useState({})
+  useEffect( () => {
+    getDate(year).then( (data) => {
+      useData(data);
+      useLoading(false);
+    }
+
+    )
+  } 
+  ) ;
+  let { year } = useParams();
   return (
     <section className="padding-big detail">
       <div className="detail__header">

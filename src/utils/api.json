@@ -1,7 +1,8 @@
 {
   "dates": [
   { 
-    "1700": {
+    "date": {
+      "year": "1700",
       "title": "Human Computers",
       "subTitle": "Start Of Computing",
       "description": "At the begginning of the computation was the women was the persons that were more solicited for been human computers and make calculus.",
@@ -19,7 +20,8 @@
     }
   },
   {
-    "1800": {
+    "date": {
+      "year": "1800",
       "title": "The New Computers",
       "subTitle": "The New Machines",
       "description": "Computers began to be created and imagined as machines that would help humans make calculations.",
@@ -45,7 +47,8 @@
     }
   },
   {
-    "1900": {
+    "date": {
+      "year": "1900",
       "title": "Wars And Technology",
       "subTitle": "The Boom Of Computers",
       "description": "With the start of wars, the power countries begin a race to have the best technologies to win the war.",
@@ -79,7 +82,8 @@
     }
   },
   {
-    "2000": {
+    "date": {
+      "year": "2000",
       "title": "Age Of Information",
       "subTitle": "Everybody Should Code, isn't?",
       "description": "The 21st century start to open the gap gender in technology, still there is strong women that make beautiful works.",

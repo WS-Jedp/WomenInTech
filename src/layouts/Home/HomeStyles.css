@@ -2,7 +2,7 @@
 .home__content{
   position: relative;
   min-width: 340px;
-  width: 70%;
+  width: 100%;
   height: 100%;
 }
 
@@ -18,6 +18,6 @@
   }
 
   .home__content{
-    width: 90%;
+    width: 100%
   }
 } 
