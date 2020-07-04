@@ -3,8 +3,7 @@ A project to show the importance of the womens in evolution of the programming a
 
 Women In Tech it's a project that born for honoring the women that are worked so hard in the area of the technology but still don't have the reputation that deserve.
 
-
-#Setup
+## Setup
 
 **Install dependences**
 
@@ -22,9 +21,13 @@ Women In Tech it's a project that born for honoring the women that are worked so
 
 `$ npm run start`
 
-#Contribute
+-------------
 
-If you want to contribute to this project request a pull request, we will be very happy that you want to contribute: D
+## Contribute
 
-#License
+If you want to contribute to this project request a pull request, we will be very happy that you want to contribute :D
+
+-------------
+
+## License
 Women in tech women is released under  [MIT](https://opensource.org/licenses/MIT)  license
