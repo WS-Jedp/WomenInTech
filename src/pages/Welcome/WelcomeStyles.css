@@ -1,7 +1,6 @@
 .welcome__container {
     height: 100%;
     width: 100%;
-    /* background-image: url("../../src/assets/Images/background_welcome.png"); */
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
