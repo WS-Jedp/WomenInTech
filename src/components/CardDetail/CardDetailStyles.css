@@ -38,7 +38,7 @@
 
 .card-detail__image img {
   position: initial;
-  width: 82%;
+  width: 90%;
 }
 
 @media screen and (max-width: 1200px) {
