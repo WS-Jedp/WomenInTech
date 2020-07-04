@@ -22,7 +22,6 @@ Women In Tech it's a project that born for honoring the women that are worked so
 
 `$ npm run start`
 
--------------
 
 ##Contribute
 
