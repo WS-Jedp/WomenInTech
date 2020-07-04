@@ -1,9 +1,9 @@
-const URL = 'http://localhost:3000/dates';
+const URL = 'http://localhost:3000';
 
 
 
 async function getData(){
-  const data = await fetch(URL).then(data => data);
+  const data = await fetch(`${URL}/dates`).then(data => data);
   const resp = data.json();
   return resp
 }
