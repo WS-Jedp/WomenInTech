@@ -8,7 +8,7 @@ import './CardDateStyles.css';
 import women from '../../assets/Images/womenBW.png';
 import womenSquare from '../../assets/Images/womenBWSquare.png';
 
-const CardDate = ({ year, title, subTitle, description, img }) => {
+const CardDate = ({id, year, title, subTitle, description, img }) => {
 
   return (
     <article className="padding-medium card-date">
@@ -27,10 +27,10 @@ const CardDate = ({ year, title, subTitle, description, img }) => {
       <figure className="margin-medium figure-image">
         <div className="figure-image__border-dates">
         </div>
-        <img src={women} alt="" />
+        <img src={img || women} alt={title} />
       </figure>
 
-      <Link to={`/detail/${year}`}>
+      <Link to={`/detail/${year}/0`}>
         <button className="margin-normal button-primary">
           Go To
         </button>

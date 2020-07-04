@@ -5,6 +5,7 @@ import './StylesDates.css';
 
 // Components
 import CardDate from '../../components/CardDate/CardDate';
+import Loading from '../../components/Loading/Loading';
 
 // Services
 import { getData } from '../../services/GetData.jsx';
@@ -32,9 +33,9 @@ class Dates extends React.Component {
     return (
       <section className="dates-section">
         {
-          this.state.loading === true ? 'Cargando' :
+          this.state.loading === true ? <Loading /> :
             this.state.dates.map(
-              date => <CardDate key={date.date.year} year={date.date.year} title={date.date.title} subTitle={date.date.subTitle} description={date.date.description} />
+              date => <CardDate key={date.date.year} img={date.date.image} id={date.date.women.id} year={date.date.year} title={date.date.title} subTitle={date.date.subTitle} description={date.date.description} />
             )
 
         }

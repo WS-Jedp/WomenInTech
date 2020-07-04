@@ -1,23 +1,23 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // Styles
 import './CardSmallStyles.css';
-import women from '../../assets/Images/womenBW.png';
 
-const CardSmall = ({ year, title, name_women, description, img }) => {
+const CardSmall = ({ id, year, title, name_women, description, img }) => {
 
   return (
-    <article className="card-small">
-      <div className="card-small__info" >
-        <h2>{name_women || 'Grace Murray Hooper'}</h2>
-      </div>
-
-      <figure className="card-small__figure">
-        <div className="card-small__border-image">
+    <Link to={`/detail/${year}/${id}`} className="card-small">
+        <div className="card-small__info" >
+          <h2>{name_women || 'Grace Murray Hooper'}</h2>
         </div>
-          <img src={women} alt="" />
-      </figure>
-    </article>
+
+        <figure className="card-small__figure">
+          <div className="card-small__border-image">
+          </div>
+            <img src={img} alt={name_women} />
+        </figure>
+    </Link>
   );
 }
 
